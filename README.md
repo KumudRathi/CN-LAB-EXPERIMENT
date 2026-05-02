@@ -137,11 +137,6 @@ This demonstrates better redundancy and fault tolerance compared to hub-based an
 
 ---
 
-# Conclusion
-
-This experiment demonstrates how network topology affects performance, reliability, and scalability. Switch-based networks provide better efficiency, while loop designs offer improved redundancy and fault tolerance.
-
-
 
 # ENCS304 — Assignment 2: Packet Flow Visualization Using Simulation Mode
 
