@@ -1,23 +1,6 @@
-# 🖧 ENCS304 – Computer Networks Lab
-## 📌 Assignment 1: Basic Network Topologies Using Switches and Hubs
+##  Assignment 1: Basic Network Topologies Using Switches and Hubs
 
----
-
-## 👨‍🎓 Student Details
-
-| Field | Information |
-|-------|-------------|
-| Name | KUMUD RATHI |
-| Roll No. | 2301010161 |
-| Program | B.Tech (CSE) |
-| Semester | 6 |
-| Course Code | ENCS304 |
-| Course Name | Computer Networks Lab |
-| School | School of Engineering and Technology |
-
----
-
-## 🎯 Experiment Objective
+##  Experiment Objective
 
 The objective of this experiment was to design and analyze different LAN topologies to understand how network structure impacts connectivity, performance, packet flow behavior, and fault tolerance.
 
@@ -25,7 +8,7 @@ The networks were designed and tested using Cisco Packet Tracer.
 
 ---
 
-## 🛠️ Equipment & Software Used
+##  Equipment & Software Used
 
 ### Virtual Devices (Packet Tracer)
 - PCs
@@ -39,7 +22,7 @@ The networks were designed and tested using Cisco Packet Tracer.
 
 ---
 
-# 🌐 Topologies Implemented
+#  Topologies Implemented
 
 ## 1️⃣ Star Topology (Switch-Based)
 
@@ -118,7 +101,7 @@ This demonstrates better redundancy and fault tolerance compared to hub-based an
 
 ---
 
-# 📂 Repository Contents
+# Repository Contents
 
 - exp1_topologies.pkt → Packet Tracer network file
 - output_exp1.txt → Ping outputs and observations
@@ -127,7 +110,7 @@ This demonstrates better redundancy and fault tolerance compared to hub-based an
 
 ---
 
-# ▶️ How to Open and Test
+# How to Open and Test
 
 1. Install Cisco Packet Tracer
 2. Open exp1_topologies.pkt
@@ -136,12 +119,9 @@ This demonstrates better redundancy and fault tolerance compared to hub-based an
 5. Run: ping <destination_IP>
 6. Use Simulation Mode to observe packet flow
 
-Example:
-ping 10.10.10.2
-
 ---
 
-# 📊 Learning Outcomes
+# Learning Outcomes
 
 ✔ Designed multiple LAN topologies  
 ✔ Configured IPv4 addresses correctly  
@@ -151,7 +131,7 @@ ping 10.10.10.2
 
 ---
 
-# 📌 Conclusion
+# Conclusion
 
 This experiment demonstrates how network topology affects performance, reliability, and scalability. Switch-based networks provide better efficiency, while loop designs offer improved redundancy and fault tolerance.
 
