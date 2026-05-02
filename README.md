@@ -1,3 +1,9 @@
+**Name:** KUMUD RATHI
+**Roll No.:** 2301010161
+**Programme:** B.Tech Computer Science & Engineering
+**Section:** C
+
+
 ##  Assignment 1: Basic Network Topologies Using Switches and Hubs
 
 ##  Experiment Objective
