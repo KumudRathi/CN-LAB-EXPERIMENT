@@ -203,14 +203,16 @@ MAC addresses, and compare the behaviour of a first ping versus a subsequent pin
 
 ---
 
-## First Ping vs Second Ping
+## 🔄 Comparison Between Initial Ping and Subsequent Ping
 
-| Aspect | First Ping | Second Ping |
-|--------|-----------|-------------|
-| ARP Required | ✅ Yes — broadcast sent | ❌ No — ARP cache hit |
-| Event Count | ~12–16 (ARP + ICMP) | ~8 (ICMP only) |
-| Switch Behaviour | Floods then unicasts | Unicast only |
-| Latency | Higher | Lower |
+| Parameter | Initial Communication | Later Communication |
+|---|---|---|
+| Address Resolution | ARP request generated | Cached MAC already available |
+| Packet Flow | Broadcast + ICMP packets | Only ICMP packets exchanged |
+| Switch Action | Broadcasts unknown destination | Direct forwarding to destination |
+| Number of Events | More network events observed | Fewer events observed |
+| Transmission Speed | Slightly slower | Faster response time |
+| Network Traffic | Higher due to ARP process | Reduced traffic load |
 
 ---
 
